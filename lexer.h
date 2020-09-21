@@ -36,8 +36,10 @@ public:
     Token peek(int);
     LexicalAnalyzer();
 
-private:
+    //put this back to private
     std::vector<Token> tokenList;
+private:
+    //std::vector<Token> tokenList;
     Token GetTokenMain();
     int line_no;
     int index;
